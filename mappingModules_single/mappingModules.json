@@ -1,0 +1,7 @@
+{
+    "brandName": "base",
+    "filePathList": [
+        "modules/home/defautData/",
+        "components/custom/tabBar/"
+    ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "filePath": "modules/home/defautData/",
+        "moduleName": "base"
+    },
+    {
+        "filePath": "components/custom/tabBar/",
+        "moduleName": "base"
+    }
+]
