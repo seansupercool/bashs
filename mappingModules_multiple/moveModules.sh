@@ -7,7 +7,8 @@ do
     filePath=$(_jq '.filePath')
     moduleName=$(_jq '.moduleName')
     cd ${dir}/node_modules/app-prototype-mk1/${filePath}
-    rm index.js
-    ln -s $moduleName.js index.js
+    mv $moduleName.js /tmp/
+    rm *
+    mv /tmp/$moduleName.js index.js
     cd $dir
 done
